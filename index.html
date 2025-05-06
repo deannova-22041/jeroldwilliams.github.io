@@ -43,7 +43,7 @@
   <section class="video" data-aos="zoom-in">
     <h2>Featured Video</h2>
     <div class="video-thumb" onclick="loadVideo()">
-      <img src="https://img.youtube.com/vi/mOWxT4JdeDI/maxresdefault.jpg" alt="Watch Video">
+      <img src="https://i.vimeocdn.com/video/856193186-640x360.jpg" alt="Watch Video">
       <div class="play-button">&#9658;</div>
     </div>
     <div id="video-container"></div>
@@ -65,7 +65,7 @@
 
     function loadVideo() {
       const container = document.getElementById('video-container');
-      container.innerHTML = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/mOWxT4JdeDI?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+      container.innerHTML = '<iframe width="100%" height="315" src="https://player.vimeo.com/video/397713241?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
       document.querySelector('.video-thumb').style.display = 'none';
     }
   </script>
